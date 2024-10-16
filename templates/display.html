@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/stylesheet.css">
+    <meta http-equiv="refresh" content="1">
+</head>
+<body>
+<div>
+    <img src = "./static/white.png" alt = "empty" class = "t1" >
+</div>
+<table>
+    
+    <td id = "lift1stat">
+        <table>
+            <tr>
+                
+                <td>
+                    <img src = "./static/white.png" alt = "empty" class = "s11" >
+                    <img src = {{lift1image}} alt = l1c class = "lift1stat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src ="./static/white.png" alt = "empty" class = "t2" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src = "./static/white.png" alt = "empty" class = "s12" >
+                    <img src = {{direction1image}} alt = direction1image class = "lift1stat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <img src = "./static/white.png" alt = "empty" class = "t3" >
+                </td>
+            </tr>
+        </table>
+    </td>
+
+    <td>
+        <img src = "./static/white.png" alt = "empty" class = "s2">
+    </td>
+
+    <td id = "lift1">
+                    
+        {% for row in lift1position %}
+            {% for person in row %}
+                
+                {% if person == "PL" %}
+                    {% if lift1capacity > 8 %}
+                        <img src = "./static/personfulll.png" alt = "angrysheep" class = "lift1">
+                    {% elif lift1capacity > 4 %}
+                        <img src = "./static/personneutrall.png" alt = "neutralsheep" class = "lift1">
+                    {% else %}
+                        <img src = "./static/personemptyl.png" alt = "happysheep" class = "lift1">
+                    {% endif %}
+
+                {% elif person == "PR" %}
+                    {% if lift1capacity > 8 %}
+                        <img src = "./static/personfullr.png" alt = "angrysheep" class = "lift1">
+                    {% elif lift1capacity > 4 %}
+                        <img src = "./static/personneutralr.png" alt = "neutralsheep" class = "lift1">
+                    {% else %}
+                        <img src = "./static/personemptyr.png" alt = "happysheep" class = "lift1">
+                    {% endif %}
+
+                {% elif person == "PF" %}
+                    {% if lift1capacity > 8 %}
+                        <img src = "./static/personfullf.png" alt = "angrysheep" class = "lift1">
+                    {% elif lift1capacity > 4 %}
+                        <img src = "./static/personneutralf.png" alt = "neutralsheep" class = "lift1">
+                    {% else %}
+                        <img src = "./static/personemptyf.png" alt = "happysheep" class = "lift1">
+                    {% endif %}
+
+                {% elif person == "T" %}
+                    {% if lift1capacity > 8 %}
+                        <img src = "./static/trolleyfull.png" alt = "angrytrolley" class = "lift1">
+                    {% elif lift1capacity > 4 %}
+                        <img src = "./static/trolleyneutral.png" alt = "neutraltrolley" class = "lift1">
+                    {% else %}
+                        <img src = "./static/trolleyempty.png" alt = "happytrolley" class = "lift1">
+                    {% endif %}
+
+                {% else %}
+                    <img src = "./static/white.png" alt = "empty" class = "lift1">
+
+                {% endif %}
+            
+            {% endfor %}
+            <br>
+        {% endfor %}
+    </td>            
+        
+    <td>
+        <img src = "./static/white.png" alt = "empty" class = "s3">
+    </td>
+            
+    <td id = "lift2">
+            
+        {% for row in lift2position %}
+            {% for person in row %}
+                
+                {% if person == "PL" %}
+                    {% if lift2capacity > 8 %}
+                        <img src = "./static/personfulll.png" alt = "angrysheep" class = "lift2">
+                    {% elif lift2capacity > 4 %}
+                        <img src = "./static/personneutrall.png" alt = "neutralsheep" class = "lift2">
+                    {% else %}
+                        <img src = "./static/personemptyl.png" alt = "happysheep" class = "lift2">
+                    {% endif %}
+
+                {% elif person == "PR" %}
+                    {% if lift2capacity > 8 %}
+                        <img src = "./static/personfullr.png" alt = "angrysheep" class = "lift2">
+                    {% elif lift2capacity > 4 %}
+                        <img src = "./static/personneutralr.png" alt = "neutralsheep" class = "lift2">
+                    {% else %}
+                        <img src = "./static/personemptyr.png" alt = "happysheep" class = "lift2">
+                    {% endif %}
+
+                {% elif person == "PF" %}
+                    {% if lift2capacity > 8 %}
+                        <img src = "./static/personfullf.png" alt = "angrysheep" class = "lift2">
+                    {% elif lift2capacity > 4 %}
+                        <img src = "./static/personneutralf.png" alt = "neutralsheep" class = "lift2">
+                    {% else %}
+                        <img src = "./static/personemptyf.png" alt = "happysheep" class = "lift2">
+                    {% endif %}
+
+                {% elif person == "T" %}
+                    {% if lift2capacity > 8 %}
+                        <img src = "./static/trolleyfull.png" alt = "angrytrolley" class = "lift2">
+                    {% elif lift2capacity > 4 %}
+                        <img src = "./static/trolleyneutral.png" alt = "neutraltrolley" class = "lift2">
+                    {% else %}
+                        <img src = "./static/trolleyempty.png" alt = "happytrolley" class = "lift2">
+                    {% endif %}
+
+                {% else %}
+                    <img src = "./static/white.png" alt = "empty" class = "lift2" >
+
+                {% endif %}
+            
+            {% endfor %}
+            <br>
+        {% endfor %}
+    </td>
+    
+
+        
+    <td id = "lift2stat">
+        <table>
+            <tr>
+                
+                <td>
+                    <img src = "./static/white.png" alt = "empty" class = "s41" >
+                    <img src = {{lift2image}} alt = l1c class = "lift2stat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src ="./static/white.png" alt = "empty" class = "t4" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src = "./static/white.png" alt = "empty" class = "s42" >
+                    <img src = {{direction2image}} alt = direction1image class = "lift2stat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <img src = "./static/white.png" alt = "empty" class = "t5" >
+                </td>
+            </tr>
+        </table>
+        
+    </td>
+        
+</table>
+</body>
+</html>
+
