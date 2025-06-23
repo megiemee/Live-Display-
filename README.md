@@ -41,3 +41,31 @@ A demo video of the working prototype is available
 ![image](https://github.com/user-attachments/assets/e42b5a42-8a64-46c6-89e8-5599857586aa)
 
 ![image](https://github.com/user-attachments/assets/218d8a95-d978-43e0-8fff-4d385cf3cec5)
+
+## Prototyping Process
+
+### Initial Site Analysis
+
+![image](https://github.com/user-attachments/assets/1bc00f78-4390-4bbd-b582-4caf8d793d82)
+
+![image](https://github.com/user-attachments/assets/2abe405b-2679-4750-994f-ff5b559f86f2)
+
+### Brainstorming
+
+![image](https://github.com/user-attachments/assets/f4f1d945-7af1-449b-9b00-136415704b31)
+
+![image](https://github.com/user-attachments/assets/acbbec9e-fdf9-4b78-a03f-8dfbcb28d451)
+
+![image](https://github.com/user-attachments/assets/80268ed5-e2ee-46cb-9673-b68a63f20739)
+
+![image](https://github.com/user-attachments/assets/480e7528-50e7-498d-bb85-f95b8b008d94)
+
+![image](https://github.com/user-attachments/assets/198a0445-bdd0-496b-9ee8-cf2d551b0299)
+
+### Further Site Analysis & Journey Map
+
+![image](https://github.com/user-attachments/assets/9f746ad9-708e-459c-aafb-1a42660694fe)
+
+![image](https://github.com/user-attachments/assets/350ab952-a373-486e-a30e-59dfbf77df6e)
+
+
