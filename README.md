@@ -13,7 +13,9 @@ Built using an arduino uno and IR sensors. Implemented with python (flask), html
 
 ![DTI part 4](https://github.com/user-attachments/assets/7caec80f-627f-4bd8-8a75-464c305ce32a)
 
+![Modelling Space and systems DTP II](https://github.com/user-attachments/assets/67ea54c2-c41f-4328-98bb-8ed03f32af80)
 
+![Technological world DTP II](https://github.com/user-attachments/assets/cace5377-e27a-4aa1-beb9-2d939dd5eada)
 
 ### Pictures of Final Prototype
 
